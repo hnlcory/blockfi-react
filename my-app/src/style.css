@@ -26,6 +26,14 @@ h1.ui.header, h2.ui.header, h3.ui.header{
 }
 
 
-.ui.button.font.type {
+.ui.button.font.type-yellow{
   font-family: 'Montserrat';
+  color: black;
+  background: rgb(255, 240, 1);
+}
+
+.ui.button.font.type-blue {
+  font-family: 'Montserrat';
+  color: white;
+  background: rgb(0, 50, 235);;
 }

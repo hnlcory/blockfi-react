@@ -54,7 +54,7 @@ class TopMenu extends React.Component {
             <Menu.Item>Credit Card</Menu.Item>
 
             <Menu.Item position='right'>Login</Menu.Item>
-            <Menu.Item><Button floated='left' className='ui button font type'>Get Started</Button></Menu.Item>
+            <Menu.Item><Button floated='left' className='ui button font type-blue'>Get Started</Button></Menu.Item>
 
           </Container>
         </Menu>
@@ -75,7 +75,7 @@ class MidPage extends React.Component {
                 <Header as='h2' style={{ fontSize: '15px' }}>The BlockFi Rewards Credit Card lets you earn up to 3.5%* back in crypto on
                   every purchase</Header>
 
-                <Button className='ui button font type'>Get Started</Button>
+                <Button className='ui button font type-blue'>Get Started</Button>
 
                 <Header as='h1' style={{ fontSize: '12px' }}>*3.5% is an introductory offer that spans the first 90 days of card
                   ownership, beginning on the date of card activation. The introductory offer is capped at $100 dollars
@@ -116,8 +116,8 @@ class MiddleMenu extends React.Component {
                   <Header as='h2' style={{ fontSize: '22px' }}>Earn rewards in Bitcoin, Ethereum, and more with the BlockFi Rewards Credit Card. See
                     if
                     you’re approved with no impact to your credit.***</Header>
-                  <Button floated='left' className='ui button font type'>Get Your Card</Button>
-                  <Button className='ui button font type'>Learn More</Button>
+                  <Button floated='left' className='ui button font type-blue'>Get Your Card</Button>
+                  <Button className='ui button font type-yellow'>Learn More</Button>
 
                   <Header as='h3' style={{ fontSize: '12px' }}>***A soft credit pull happens before you’ve accepted the credit card offer. A hard
                     credit pull occurs when you’ve accepted your credit card offer, which can have an impact on your
@@ -142,8 +142,8 @@ class FooterMenu extends React.Component {
                 <Grid.Column>
                   <Image
                       src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjM2IiB2aWV3Qm94PSIwIDAgMTYwIDM2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMTU5Ljk4NSAxMy4zNTM4SDE1NS45MTZWMjkuMTM5N0gxNTkuOTg1VjEzLjM1MzhaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTU5Ljk4NSA1Ljc5NzM2SDE1NS45MTZWMTAuMDgwM0gxNTkuOTg1VjUuNzk3MzZaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMTUxLjY5NCA2LjAxMTU0VjkuNzEzMjZIMTQxLjI5M1YxNi4xNjgzSDE1MC4xNjRWMTkuODdIMTQxLjI5M1YyOS4xMzk2SDEzNy4wNzFWNi4wMTE1NEgxNTEuNjk0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTEyNS43MjEgMTkuNTY0TDEzMy4yNDcgMjkuMTM5NUgxMjguMzIxTDEyMi45OTggMjIuMzc4NUwxMjEuMzc3IDI0LjA2MTFWMjkuMTcwMUgxMTcuMzA4VjUuOTE5NjJIMTIxLjM3N1YxOC45NTIxTDEyNy41MjYgMTIuNDk3MUgxMzIuNDUyTDEyNS43MjEgMTkuNTY0WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTExMi40MTMgMjQuNjQyNUwxMTMuNjA2IDI4LjA2ODlDMTExLjc3IDI5LjEzOTYgMTA5LjgxMiAyOS42NTk3IDEwNy42NCAyOS42NTk3QzEwNC45MTggMjkuNjI5MSAxMDIuODA3IDI4LjgzMzcgMTAxLjM2OSAyNy4yNDI5Qzk5LjkzMSAyNS42NTIxIDk5LjE5NjggMjMuNDE4OCA5OS4xOTY4IDIwLjU3MzdDOTkuMTk2OCAxNy43NTkxIDk5LjkzMSAxNS41ODcgMTAxLjM2OSAxMy45OTYyQzEwMi44MDcgMTIuNDA1NCAxMDQuOTE4IDExLjYxIDEwNy42NCAxMS42MUMxMDguNjE5IDExLjYxIDEwOS40NDUgMTEuNjcxMiAxMTAuMTQ5IDExLjc5MzVDMTEwLjg1MyAxMS45MTU5IDExMS41ODcgMTIuMTMwMSAxMTIuMzIxIDEyLjQzNlYxNi4yNjAxQzExMS41ODcgMTUuODkzIDExMC44NTMgMTUuNjQ4MiAxMTAuMjEgMTUuNDk1M0MxMDkuNTM3IDE1LjM0MjMgMTA4LjgzMyAxNS4yODExIDEwOC4wMzggMTUuMjgxMUMxMDQuOTQ4IDE1LjMxMTcgMTAzLjQxOSAxNy4wNTU1IDEwMy40MTkgMjAuNTQzMUMxMDMuNDE5IDI0LjE1MyAxMDQuOTE4IDI1Ljk1OCAxMDcuOTQ2IDI1Ljk1OEMxMDkuNDE1IDI1Ljk1OCAxMTAuODgzIDI1LjUyOTcgMTEyLjQxMyAyNC42NDI1WiIgZmlsbD0id2hpdGUiLz4KPHBhdGggZD0iTTk0Ljg4MzQgMTYuMDE1MkM5NS41MjU4IDE3LjM5MTkgOTUuODYyMyAxOC44OTA5IDk1Ljg2MjMgMjAuNjA0MUM5NS44NjIzIDIyLjMxNzMgOTUuNTI1OCAyMy44NDcgOTQuODgzNCAyNS4yMjM2Qzk0LjI0MDkgMjYuNjAwMyA5My4yMzE0IDI3LjY3MTEgOTEuOTQ2NSAyOC40NjY1QzkwLjYzMSAyOS4yNjE5IDg5LjA0MDIgMjkuNjU5NiA4Ny4yMDQ2IDI5LjY1OTZDODUuMzA3OCAyOS42NTk2IDgzLjcxNyAyOS4yNjE5IDgyLjQwMTUgMjguNDY2NUM4MS4wODYxIDI3LjY3MTEgODAuMTA3MSAyNi42MDAzIDc5LjQzNCAyNS4yMjM2Qzc4Ljc2MSAyMy44NDcgNzguNDU1MSAyMi4zMTczIDc4LjQ1NTEgMjAuNjA0MUM3OC40NTUxIDE4LjkyMTUgNzguNzkxNiAxNy4zOTE5IDc5LjQzNCAxNi4wMTUyQzgwLjEwNzEgMTQuNjM4NiA4MS4wODYxIDEzLjU2NzggODIuNDAxNSAxMi43NzI0QzgzLjcxNyAxMS45NzcgODUuMzA3OCAxMS41NzkzIDg3LjIwNDYgMTEuNTc5M0M4OS4wNzA4IDExLjU3OTMgOTAuNjYxNiAxMS45NzcgOTEuOTQ2NSAxMi43NzI0QzkzLjIzMTQgMTMuNTY3OCA5NC4yNDA5IDE0LjYzODYgOTQuODgzNCAxNi4wMTUyWk05MS42NzExIDIwLjYwNDFDOTEuNjcxMSAxOC45MjE1IDkxLjI3MzQgMTcuNTc1NSA5MC41MDg2IDE2LjU5NjVDODkuNzQzOCAxNS42MTc1IDg4LjY0MjUgMTUuMTI4IDg3LjIwNDYgMTUuMTI4Qzg1LjczNjEgMTUuMTI4IDg0LjYzNDggMTUuNjE3NSA4My44Mzk0IDE2LjU5NjVDODMuMDc0NiAxNy41NzU1IDgyLjY3NjkgMTguODkwOSA4Mi42NzY5IDIwLjYwNDFDODIuNjc2OSAyMi4zMTczIDgzLjA3NDYgMjMuNjMyOCA4My44Mzk0IDI0LjYxMThDODQuNjA0MiAyNS41OTA4IDg1LjczNjEgMjYuMDgwMiA4Ny4yMDQ2IDI2LjA4MDJDODguNjQyNSAyNi4wODAyIDg5Ljc0MzggMjUuNTkwOCA5MC41MDg2IDI0LjYxMThDOTEuMjczNCAyMy42MzI4IDkxLjY3MTEgMjIuMjg2NyA5MS42NzExIDIwLjYwNDFaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNNzUuNzkzNCAyNS42ODI2VjI5LjIzMTRDNzQuODQ1IDI5LjQ0NTUgNzMuOTU3OCAyOS41Njc5IDczLjE5MyAyOS41Njc5QzcxLjUxMDQgMjkuNTM3MyA3MC4yODY3IDI5LjIwMDggNjkuNTIxOSAyOC40OTcxQzY4Ljc1NzEgMjcuNzkzNSA2OC4zNTk0IDI2LjcyMjcgNjguMzU5NCAyNS4yNTQzVjUuODg5MUg3Mi40MjgyVjIzLjkwODJDNzIuNDI4MiAyNC42NDI0IDcyLjU1MDYgMjUuMTYyNSA3Mi43OTUzIDI1LjQzNzlDNzMuMDQwMSAyNS43MTMyIDczLjQ2ODQgMjUuODY2MiA3NC4xMTA4IDI1Ljg2NjJDNzQuNzUzMyAyNS44NjYyIDc1LjMwMzkgMjUuODA1IDc1Ljc5MzQgMjUuNjgyNloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik02Mi41Nzc0IDE5LjQxMTJDNjMuMzExNiAyMC4zMjg5IDYzLjY0ODEgMjEuNDMwMyA2My42NDgxIDIyLjc3NjRDNjMuNjQ4MSAyNC45MTc4IDYyLjk3NTEgMjYuNTA4NyA2MS42NTk2IDI3LjU3OTRDNjAuMzQ0MSAyOC42NTAyIDU4LjExMDkgMjkuMTM5NiA1NC45OTA0IDI5LjEzOTZINDYuMTc5N1Y2LjAxMTU0SDU0Ljk5MDRDNTcuODA0OSA2LjAxMTU0IDU5Ljc5MzUgNi41MzE2MSA2MC45ODY2IDcuNTcxNzZDNjIuMTc5NyA4LjYxMTkyIDYyLjc2MDkgMTAuMTQxNiA2Mi43NjA5IDEyLjIyMTlDNjIuNzYwOSAxMy40NzYyIDYyLjUxNjIgMTQuNTE2MyA2MS45OTYxIDE1LjM3MjlDNjEuNDc2MSAxNi4yMjk1IDYwLjY1IDE2LjkwMjUgNTkuNTQ4NyAxNy4zOTJDNjAuODMzNiAxNy44MjAzIDYxLjg0MzIgMTguNDkzNCA2Mi41Nzc0IDE5LjQxMTJaTTU4LjM4NjIgMjQuOTQ4NEM1OS4wNTkyIDI0LjQyODQgNTkuMzY1MiAyMy42MDI0IDU5LjM2NTIgMjIuNDcwNEM1OS4zNjUyIDIxLjMzODUgNTguOTk4IDIwLjU0MzEgNTguMjYzOCAyMC4wMjNDNTcuNTI5NiAxOS41MDI5IDU2LjQyODMgMTkuMjU4MiA1NC45OTA0IDE5LjI1ODJINTAuNDAxNVYyNS43MTMzSDU0Ljk5MDRDNTYuNTgxMiAyNS43MTMzIDU3LjcxMzEgMjUuNDY4NSA1OC4zODYyIDI0Ljk0ODRaTTU4LjQ0NzQgMTIuNTU4NEM1OC40NDc0IDExLjQyNjQgNTguMTcyIDEwLjYzMSA1Ny42NTIgMTAuMTQxNkM1Ny4xMzE5IDkuNjUyMDcgNTYuMjQ0NyA5LjQwNzMzIDU0Ljk5MDQgOS40MDczM0g1MC40MDE1VjE1LjgzMThINTQuOTkwNEM1Ny4yODQ5IDE1LjgzMTggNTguNDQ3NCAxNC43MzA1IDU4LjQ0NzQgMTIuNTU4NFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0zMy4zMDAyIDEyLjUyNzdDMzYuMTc1OSAxNS40MDM0IDM2LjE3NTkgMjAuMDUzNSAzMy4zMDAyIDIyLjg5ODdMMjIuOTI5MyAzMy4zMDAyQzIwLjA1MzUgMzYuMTc1OSAxNS40MDM0IDM2LjE3NTkgMTIuNTU4MyAzMy4zMDAyTDIuMTU2NzkgMjIuOTI5M0MtMC43MTg5MjkgMjAuMDUzNSAtMC43MTg5MjkgMTUuNDAzNCAyLjE1Njc5IDEyLjU1ODNMMTIuNTI3NyAyLjE1Njc5QzE1LjQwMzQgLTAuNzE4OTI5IDIwLjA1MzUgLTAuNzE4OTI5IDIyLjkyOTMgMi4xNTY3OUwzMy4zMDAyIDEyLjUyNzdaTTI1LjUyOTYgMjAuMzI4OUMyNi45Njc1IDE4Ljg5MSAyNi45Njc1IDE2LjU2NiAyNS41Mjk2IDE1LjEyODFMMjAuMzI4OSA5LjkyNzM0QzE4Ljg5MSA4LjQ4OTQ4IDE2LjU2NiA4LjQ4OTQ4IDE1LjEyODEgOS45MjczNEw5LjkyNzM0IDE1LjEyODFDOC40ODk0OCAxNi41NjYgOC40ODk0OCAxOC44OTEgOS45MjczNCAyMC4zMjg5TDE1LjEyODEgMjUuNTI5NkMxNi41NjYgMjYuOTY3NSAxOC44OTEgMjYuOTY3NSAyMC4zMjg5IDI1LjUyOTZMMjUuNTI5NiAyMC4zMjg5WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg=='/>
-                  <Button className='ui button font type'>Get Started</Button>
-                  <Button className='ui button font type'>Login</Button>
+                  <Button className='ui button font type-yellow' style={{marginBottom: '10px', marginTop: '10px'}}>Get Started</Button>
+                  <Button className='ui button font type-blue'>Login</Button>
                 </Grid.Column>
 
                 <Grid.Column>
