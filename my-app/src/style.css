@@ -4,5 +4,28 @@
   color: white;
   padding-top: 20px;
   padding-bottom: 20px;
-  line-height: 50px;
+}
+
+
+.ui.borderless.topmenu.menu {
+  font-family: 'Montserrat';
+  box-shadow: none;
+  border: none;
+  background-color: rgb(241, 241, 241);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cardpage {
+  background-color: rgb(241, 241, 241);
+  padding-bottom: 30px;
+}
+
+h1.ui.header, h2.ui.header, h3.ui.header{
+  font-family: 'Montserrat';
+}
+
+
+.ui.button.font.type {
+  font-family: 'Montserrat';
 }
