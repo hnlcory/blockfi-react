@@ -2,14 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
 import 'semantic-ui-css/semantic.min.css';
-import { Image, Item } from 'semantic-ui-react'
-import { Menu } from 'semantic-ui-react'
-import { Icon } from 'semantic-ui-react'
-import { Grid } from 'semantic-ui-react'
-import { Dropdown } from 'semantic-ui-react'
-import { Container, Header } from 'semantic-ui-react';
-import { Button } from 'semantic-ui-react'
-import { Input } from 'semantic-ui-react'
+import { Image, Item, Menu, Icon, Grid, Dropdown, Container, Header, Button, Input } from 'semantic-ui-react'
 
 class TopMenu extends React.Component {
   state = {}
@@ -53,7 +46,7 @@ class TopMenu extends React.Component {
             <Menu.Item>Company</Menu.Item>
             <Menu.Item>Credit Card</Menu.Item>
 
-            <Menu.Item position='right'>Login</Menu.Item>
+            <Menu.Item position='right' style={{color: 'rgb(0, 50, 235)'}}>Login</Menu.Item>
             <Menu.Item><Button floated='left' className='ui button font type-blue'>Get Started</Button></Menu.Item>
 
           </Container>
